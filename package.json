@@ -1,0 +1,39 @@
+{
+  "name": "node_webpack_phaser_boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate for creating a Node + Webpack + Phaser application",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack serve --config config/webpack.dev.js",
+    "build": "webpack --config config/webpack.prod.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SethAThomas/node_webpack_phaser_boilerplate.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SethAThomas/node_webpack_phaser_boilerplate/issues"
+  },
+  "homepage": "https://github.com/SethAThomas/node_webpack_phaser_boilerplate#readme",
+  "dependencies": {
+    "webpack-merge": "^5.8.0",
+    "phaser": "^3.55.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "babel-loader": "^8.2.3",
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^10.0.0",
+    "html-webpack-plugin": "^5.5.0",
+    "phaser": "^3.55.2",
+    "webpack": "^5.64.4",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.6.0"
+  }
+}
