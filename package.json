@@ -1,7 +1,7 @@
 {
   "name": "node_webpack_phaser_boilerplate",
   "version": "1.0.0",
-  "description": "Boilerplate for creating a Node + Webpack + Phaser application",
+  "description": "Boilerplate for creating a Phaser + Webpack application",
   "main": "index.js",
   "scripts": {
     "dev": "webpack serve --config config/webpack.dev.js",
